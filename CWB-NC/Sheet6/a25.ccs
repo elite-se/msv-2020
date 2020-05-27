@@ -1,0 +1,35 @@
+proc s1 = a.s2 + a.s3
+
+proc s2 = b.s4 + b.s5 + t.s3
+
+proc s3 = c.s6 + c.s5 + t.s2
+
+proc s4 = nil
+
+proc s5 = nil
+
+proc s6 = nil
+
+proc s7 = a.s8 + a.s9 + a.s10
+
+proc s8 = b.s11
+
+proc s9 = b.s11 + c.s12
+
+proc s10 = c.s12
+
+proc s11 = nil
+
+proc s12 = nil
+
+proc s13 = a.s15
+
+proc s14 = b.s17
+
+proc s15 = b.s17 + c.s18 + t.s16 + t.s14
+
+proc s16 = c.s18
+
+proc s17 = nil
+
+proc s18 = nil
